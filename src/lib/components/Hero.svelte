@@ -54,12 +54,12 @@
 		</div>
 
 		<div
-			class="mt-14 grid grid-cols-1 gap-8 border-t border-primary/10 pt-10 sm:grid-cols-3 sm:gap-0 sm:pt-12 lg:mt-16"
+			class="mt-14 grid grid-cols-1 justify-items-center gap-10 border-t border-primary/10 pt-10 sm:grid-cols-3 sm:justify-items-stretch sm:gap-0 sm:pt-12 lg:mt-16"
 			aria-label="Kluczowe informacje"
 		>
 			{#each stats as { label, value }, i}
 				<div
-					class="flex flex-col gap-1 sm:px-6 lg:px-8 {i > 0
+					class="flex w-full flex-col items-center gap-1 text-center sm:items-start sm:px-6 sm:text-left lg:px-8 {i > 0
 						? 'sm:border-l sm:border-primary/10'
 						: ''}"
 				>

@@ -102,7 +102,7 @@
 			aria-label="Menu nawigacji"
 		>
 			<nav aria-label="Główne — urządzenia mobilne" class="mx-auto max-w-6xl px-4 py-4 sm:px-6">
-				<ul class="flex flex-col gap-1">
+				<ul class="flex flex-col gap-1 text-center">
 					{#each links as { href, label }}
 						<li>
 							<a
