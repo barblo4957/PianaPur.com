@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	.nav-cta-glow {
+		transition: none;
+	}
+
+	.nav-cta-glow:hover,
+	.nav-cta-glow:active {
+		transform: none;
+	}
+}
+
+@theme {
+	--color-primary: #0f172a;
+	--color-accent: #f59e0b;
+	--color-background: #ffffff;
+
+	--font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+	--font-display: 'Oswald', ui-sans-serif, system-ui, sans-serif;
+}
