@@ -1,5 +1,6 @@
 <script lang="ts">
 	const links = [
+		{ href: '#o-nas', label: 'O firmie' },
 		{ href: '#features', label: 'Korzyści' },
 		{ href: '#comparison', label: 'Rodzaje piany' },
 		{ href: '#celuloza', label: 'Celuloza' },

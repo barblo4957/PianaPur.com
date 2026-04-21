@@ -1,5 +1,4 @@
 <script lang="ts">
-	import MediaPlaceholder from '$lib/components/MediaPlaceholder.svelte';
 </script>
 
 <section
@@ -22,14 +21,21 @@
 					proszkami antygrzybicznymi (zgodnie z kartą produktu i deklaracją właściwości użytkowych).
 				</p>
 				<p class="mt-4 rounded-xl border border-emerald-700/20 bg-white px-4 py-3 font-sans text-sm leading-relaxed text-primary/80 shadow-sm">
-					<strong class="text-primary">Lokalnie:</strong> ocieplanie celulozą dostępne w
-					<strong class="font-semibold text-primary">Raciborzu i regionie</strong> — wycena i terminy jak przy
-					natrysku PUR; dobór metody zależy od konstrukcji i WT.
+					<strong class="text-primary">Dostępne na terenie całego obszaru działania</strong> — województwa
+					<strong class="font-semibold text-primary">śląskie</strong>,
+					<strong class="font-semibold text-primary">opolskie</strong> i
+					<strong class="font-semibold text-primary">małopolskie</strong>.
+					Wycena i terminy jak przy natrysku PUR.
 				</p>
 			</div>
 			<div class="w-full">
-				<!-- MediaPlaceholder eco: wdmuchiwarka / wąż w przestrzeń stropu lub ułożona celuloza na poddaszu — nacisk „eko” -->
-				<MediaPlaceholder variant="eco" ariaLabel="Miejsce na zdjęcie — ocieplanie celulozą" />
+				<img
+					src="/images/celuloza.jpeg"
+					alt="Ocieplanie celulozą — wdmuchana celuloza na stropie poddasza"
+					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.12)]"
+					style="aspect-ratio: 16/9;"
+					loading="lazy"
+				/>
 			</div>
 		</div>
 

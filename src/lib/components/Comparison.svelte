@@ -1,7 +1,3 @@
-<script lang="ts">
-	import MediaPlaceholder from '$lib/components/MediaPlaceholder.svelte';
-</script>
-
 <section id="comparison" class="scroll-mt-24 border-b border-primary/10 bg-primary/[0.02] py-20 sm:py-24">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<h2 class="font-display text-3xl font-bold tracking-tight text-primary sm:text-4xl">
@@ -17,10 +13,12 @@
 				aria-labelledby="open-cell-title"
 			>
 				<div class="mb-6 w-full">
-					<!-- MediaPlaceholder open: zbliżenie na fakturę / strukturę piany otwartokomórkowej na poddaszu lub ścianie -->
-					<MediaPlaceholder
-						variant="open"
-						ariaLabel="Miejsce na zdjęcie — realizacja piany otwartokomórkowej"
+					<img
+						src="/images/poddasze-1.jpeg"
+						alt="Piana otwartokomórkowa na poddaszu — widok po natrysku"
+						class="w-full rounded-xl object-cover"
+						style="aspect-ratio: 16/9;"
+						loading="lazy"
 					/>
 				</div>
 				<h3 id="open-cell-title" class="font-display text-xl font-bold text-primary sm:text-2xl">
@@ -52,10 +50,12 @@
 				aria-labelledby="closed-cell-title"
 			>
 				<div class="mb-6 w-full">
-					<!-- MediaPlaceholder closed: zbliżenie na gęstą pianę zamkniętokomórkową — fundament, strop lub piwnica jako kontekst -->
-					<MediaPlaceholder
-						variant="closed"
-						ariaLabel="Miejsce na zdjęcie — realizacja piany zamkniętokomórkowej"
+					<img
+						src="/images/fundament-1.jpeg"
+						alt="Piana zamkniętokomórkowa na fundamencie — izolacja zewnętrzna"
+						class="w-full rounded-xl object-cover"
+						style="aspect-ratio: 16/9;"
+						loading="lazy"
 					/>
 				</div>
 				<h3 id="closed-cell-title" class="font-display text-xl font-bold text-primary sm:text-2xl">

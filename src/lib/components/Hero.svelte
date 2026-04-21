@@ -1,6 +1,4 @@
 <script lang="ts">
-	import MediaPlaceholder from '$lib/components/MediaPlaceholder.svelte';
-
 	const stats = [
 		{ label: 'Wydajność natrysku', value: 'do 300 m² / dzień' },
 		{ label: 'Obszar realizacji', value: '3 województwa' },
@@ -45,10 +43,12 @@
 			</div>
 
 			<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
-				<!-- MediaPlaceholder hero: szeroki kadr — ekipa natryskuje PUR na dachu; wąż, odzież ochronna, świeża piana na OSB/membranie -->
-				<MediaPlaceholder
-					variant="hero"
-					ariaLabel="Miejsce na zdjęcie realizacji natrysku piany PUR"
+				<img
+					src="/images/hero.jpeg"
+					alt="Ocieplenie pianą PUR — widok z wnętrza poddasza po natrysku"
+					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
+					style="aspect-ratio: 16/9;"
+					loading="eager"
 				/>
 			</figure>
 		</div>
