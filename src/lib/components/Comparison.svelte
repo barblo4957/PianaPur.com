@@ -87,39 +87,96 @@
 			</article>
 		</div>
 
-		<div class="mt-10 overflow-x-auto rounded-2xl border border-primary/10 bg-background shadow-sm">
-			<table class="w-full min-w-[36rem] text-left font-sans text-sm">
-				<caption class="sr-only">Porównanie piany otwarto- i zamkniętokomórkowej</caption>
-				<thead>
-					<tr class="border-b border-primary/10 bg-primary text-left text-background">
-						<th class="px-4 py-3 font-semibold sm:px-6">Aspekt</th>
-						<th class="px-4 py-3 font-semibold sm:px-6">Otwartokomórkowa</th>
-						<th class="px-4 py-3 font-semibold sm:px-6">Zamkniętokomórkowa</th>
-					</tr>
-				</thead>
-				<tbody class="text-primary/85">
-					<tr class="border-b border-primary/10">
-						<td class="px-4 py-3 font-medium text-primary sm:px-6">Główne strefy</td>
-						<td class="px-4 py-3 sm:px-6">Poddasza, ściany (lekkie, elastyczne układy)</td>
-						<td class="px-4 py-3 sm:px-6">Fundamenty, stropy, piwnice</td>
-					</tr>
-					<tr class="border-b border-primary/10">
-						<td class="px-4 py-3 font-medium text-primary sm:px-6">Wilgoć / para</td>
-						<td class="px-4 py-3 sm:px-6">Bardziej „oddychający” profil warstwy (otwarte komórki)</td>
-						<td class="px-4 py-3 sm:px-6">Silniejsza bariera — ogranicza przenikanie wilgoci</td>
-					</tr>
-					<tr class="border-b border-primary/10">
-						<td class="px-4 py-3 font-medium text-primary sm:px-6">Mechanika</td>
-						<td class="px-4 py-3 sm:px-6">Elastyczność, dopasowanie do ruchów drewna</td>
-						<td class="px-4 py-3 sm:px-6">Wyższa sztywność i odporność na uszkodzenia</td>
-					</tr>
-					<tr>
-						<td class="px-4 py-3 font-medium text-primary sm:px-6">Typowy wybór gdy…</td>
-						<td class="px-4 py-3 sm:px-6">Chcesz szczelną izolację płatwi i przegród „suchych”</td>
-						<td class="px-4 py-3 sm:px-6">Potrzebujesz bariery w kontakcie z ziemią lub wilgocią</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="mt-10">
+			<div class="hidden overflow-x-auto rounded-2xl border border-primary/10 bg-background shadow-sm sm:block">
+				<table class="w-full min-w-[36rem] text-left font-sans text-sm">
+					<caption class="sr-only">Porównanie piany otwarto- i zamkniętokomórkowej</caption>
+					<thead>
+						<tr class="border-b border-primary/10 bg-primary text-left text-background">
+							<th class="px-4 py-3 font-semibold sm:px-6">Aspekt</th>
+							<th class="px-4 py-3 font-semibold sm:px-6">Otwartokomórkowa</th>
+							<th class="px-4 py-3 font-semibold sm:px-6">Zamkniętokomórkowa</th>
+						</tr>
+					</thead>
+					<tbody class="text-primary/85">
+						<tr class="border-b border-primary/10">
+							<td class="px-4 py-3 font-medium text-primary sm:px-6">Główne strefy</td>
+							<td class="px-4 py-3 sm:px-6">Poddasza, ściany (lekkie, elastyczne układy)</td>
+							<td class="px-4 py-3 sm:px-6">Fundamenty, stropy, piwnice</td>
+						</tr>
+						<tr class="border-b border-primary/10">
+							<td class="px-4 py-3 font-medium text-primary sm:px-6">Wilgoć / para</td>
+							<td class="px-4 py-3 sm:px-6">Bardziej „oddychający" profil warstwy (otwarte komórki)</td>
+							<td class="px-4 py-3 sm:px-6">Silniejsza bariera — ogranicza przenikanie wilgoci</td>
+						</tr>
+						<tr class="border-b border-primary/10">
+							<td class="px-4 py-3 font-medium text-primary sm:px-6">Mechanika</td>
+							<td class="px-4 py-3 sm:px-6">Elastyczność, dopasowanie do ruchów drewna</td>
+							<td class="px-4 py-3 sm:px-6">Wyższa sztywność i odporność na uszkodzenia</td>
+						</tr>
+						<tr>
+							<td class="px-4 py-3 font-medium text-primary sm:px-6">Typowy wybór gdy…</td>
+							<td class="px-4 py-3 sm:px-6">Chcesz szczelną izolację płatwi i przegród „suchych"</td>
+							<td class="px-4 py-3 sm:px-6">Potrzebujesz bariery w kontakcie z ziemią lub wilgocią</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="grid gap-4 sm:hidden">
+				<div class="rounded-2xl border border-primary/10 bg-background p-4 shadow-sm">
+					<p class="font-sans text-xs font-semibold uppercase tracking-wide text-accent mb-3">Główne strefy</p>
+					<div class="grid grid-cols-2 gap-3">
+						<div class="rounded-xl bg-primary/[0.02] p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Otwartokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Poddasza, ściany (lekkie układy)</p>
+						</div>
+						<div class="rounded-xl bg-accent/5 p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Zamkniętokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Fundamenty, stropy, piwnice</p>
+						</div>
+					</div>
+				</div>
+				<div class="rounded-2xl border border-primary/10 bg-background p-4 shadow-sm">
+					<p class="font-sans text-xs font-semibold uppercase tracking-wide text-accent mb-3">Wilgoć / para</p>
+					<div class="grid grid-cols-2 gap-3">
+						<div class="rounded-xl bg-primary/[0.02] p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Otwartokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Bardziej „oddychający" profil warstwy</p>
+						</div>
+						<div class="rounded-xl bg-accent/5 p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Zamkniętokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Silniejsza bariera przeciwwilgociowa</p>
+						</div>
+					</div>
+				</div>
+				<div class="rounded-2xl border border-primary/10 bg-background p-4 shadow-sm">
+					<p class="font-sans text-xs font-semibold uppercase tracking-wide text-accent mb-3">Mechanika</p>
+					<div class="grid grid-cols-2 gap-3">
+						<div class="rounded-xl bg-primary/[0.02] p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Otwartokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Elastyczna, pracuje z drewnem</p>
+						</div>
+						<div class="rounded-xl bg-accent/5 p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Zamkniętokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Wyższa sztywność i odporność</p>
+						</div>
+					</div>
+				</div>
+				<div class="rounded-2xl border border-primary/10 bg-background p-4 shadow-sm">
+					<p class="font-sans text-xs font-semibold uppercase tracking-wide text-accent mb-3">Typowy wybór gdy…</p>
+					<div class="grid grid-cols-2 gap-3">
+						<div class="rounded-xl bg-primary/[0.02] p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Otwartokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Szczelna izolacja płatwi i przegród suchych</p>
+						</div>
+						<div class="rounded-xl bg-accent/5 p-3">
+							<p class="font-sans text-xs font-semibold text-primary mb-1">Zamkniętokomórkowa</p>
+							<p class="font-sans text-xs leading-relaxed text-primary/70">Bariera w kontakcie z ziemią lub wilgocią</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
