@@ -48,7 +48,11 @@
 					alt="Ocieplenie pianą PUR — widok z wnętrza poddasza po natrysku"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
 					style="aspect-ratio: 16/9;"
+					width="800"
+					height="450"
 					loading="eager"
+					fetchpriority="high"
+					decoding="async"
 				/>
 			</figure>
 		</div>
