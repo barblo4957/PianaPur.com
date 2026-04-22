@@ -44,6 +44,17 @@
 					</li>
 				</ul>
 			</div>
+			<div class="font-sans text-sm text-background/65">
+				<p class="font-semibold text-background/90">Znajdź nas</p>
+				<ul class="mt-2 space-y-1">
+					<li>
+						<a class="text-accent underline-offset-2 hover:underline" href="https://www.facebook.com/Izolacje.Natryskowe.Marcin.Kubik" target="_blank" rel="noopener noreferrer">Facebook</a>
+					</li>
+					<li>
+						<a class="text-accent underline-offset-2 hover:underline" href="https://www.tiktok.com/@pianapur.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<div class="flex flex-col gap-2 border-t border-background/15 pt-8 font-sans text-xs text-background/55 sm:flex-row sm:items-center sm:justify-between">
 			<p>© {new Date().getFullYear()} FHU Marcin Kubik. Wszelkie prawa zastrzeżone.</p>
