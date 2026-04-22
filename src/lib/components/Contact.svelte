@@ -61,7 +61,7 @@
 				<p class="mt-8 font-sans text-sm leading-relaxed text-primary/70">
 					Zaufaj lokalnemu specjaliście –
 					<a
-						href="https://maps.app.goo.gl/your-link"
+						href="https://share.google/i518mSTHIaGPdmuJJ"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="inline-flex items-center gap-1 font-semibold text-primary hover:text-accent transition-colors"
