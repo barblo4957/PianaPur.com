@@ -27,7 +27,7 @@
 				<ul class="mt-4 flex flex-1 flex-col gap-3 font-sans text-sm leading-relaxed text-primary/80">
 					<li class="flex gap-2">
 						<span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden="true"></span>
-						<span><strong class="text-primary">Poddasza</strong> — skuteczne wypełnienie płatwi i złożonych geometrii.</span>
+						<span><strong class="text-primary">Poddasza</strong> — dociera w każdy zakamarek dachu, niezależnie od skomplikowania konstrukcji.</span>
 					</li>
 					<li class="flex gap-2">
 						<span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden="true"></span>

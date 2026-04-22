@@ -43,8 +43,7 @@
 			<li class="rounded-2xl border border-slate-200/90 bg-white p-5 shadow-sm">
 				<h3 class="font-display text-base font-bold text-primary">Dlaczego ekologia</h3>
 				<p class="mt-2 font-sans text-sm leading-relaxed text-primary/70">
-					Niskoemisyjny sposób wykorzystania surowca wtórnego — dobrze komponuje się z certyfikowanymi
-					obiektami i świadomym klimatem inwestorem.
+					Materiał z recyclingu papieru — dobry wybór dla tych, którym zależy na ekologicznym budownictwie.
 				</p>
 			</li>
 			<li class="rounded-2xl border border-slate-200/90 bg-white p-5 shadow-sm">

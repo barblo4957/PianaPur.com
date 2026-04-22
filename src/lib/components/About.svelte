@@ -6,11 +6,11 @@
 		},
 		{
 			title: 'Przygotowanie i ocieplenie dachu',
-			body: 'Montaż uchwytów, obroba okien dachowych i pełne ocieplenie połaci — kompleksowo w jednym zleceniu.'
+			body: 'Montaż uchwytów, obróbka okien dachowych i ocieplenie połaci — jedna ekipa, od początku do końca.'
 		},
 		{
 			title: 'Zabudowa płytami GK',
-			body: 'Zabudowa z ociepleniem do etapu pierwszego malowania — oddajemy gotowe poddasze, nie surowy natrysk.'
+			body: 'Płyty GK z ociepleniem do pierwszego malowania — zostawiamy gotowe poddasze, nie surowy natrysk.'
 		},
 		{
 			title: 'Gładzie i malowanie',

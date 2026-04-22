@@ -2,6 +2,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import About from '$lib/components/About.svelte';
+	import VideoSection from '$lib/components/VideoSection.svelte';
 	import Features from '$lib/components/Features.svelte';
 	import Comparison from '$lib/components/Comparison.svelte';
 	import Cellulose from '$lib/components/Cellulose.svelte';
@@ -13,6 +14,7 @@
 <main>
 	<Hero />
 	<About />
+	<VideoSection />
 	<Features />
 	<Comparison />
 	<Cellulose />

@@ -6,7 +6,7 @@
 		},
 		{
 			title: 'Trwałość na lata',
-			body: 'Piana nie kurczy się, nie osada ani nie utlenia — parametry izolacji pozostają stabilne przez długi czas eksploatacji.'
+			body: 'Piana nie kurczy się ani nie degraduje z upływem lat — raz położona izolacja zachowuje swoje właściwości przez całą żywotność budynku.'
 		},
 		{
 			title: 'Ochrona przed pleśnią',
@@ -26,7 +26,7 @@
 		},
 		{
 			title: 'Lekka konstrukcja',
-			body: 'Niskie obciążenie wiązaru — piana nie dociąża konstrukcji dachu przy zachowaniu wysokiej izolacyjności.'
+			body: 'Piana waży znacznie mniej niż tradycyjne materiały izolacyjne — nie obciąża konstrukcji dachu.'
 		},
 		{
 			title: 'Szybka realizacja',
@@ -54,7 +54,7 @@
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<h2 class="font-display text-3xl font-bold tracking-tight text-primary sm:text-4xl">Korzyści z piany PUR</h2>
 		<p class="mt-4 max-w-2xl font-sans text-primary/75">
-			Wszystko, co warto wiedzieć przed decyzją — w skrócie, bez ściany tekstu.
+			Wszystko, co warto wiedzieć przed decyzją.
 		</p>
 
 		<ul class="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
