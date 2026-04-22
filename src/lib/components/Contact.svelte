@@ -59,7 +59,17 @@
 				</ul>
 
 				<p class="mt-8 font-sans text-sm leading-relaxed text-primary/70">
-					Zaufaj lokalnemu specjaliście – setki zadowolonych klientów w regionie.
+					Zaufaj lokalnemu specjaliście –
+					<a
+						href="https://maps.app.goo.gl/your-link"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="inline-flex items-center gap-1 font-semibold text-primary hover:text-accent transition-colors"
+					>
+						<span>⭐ 5.0</span>
+						<span class="text-primary/50">·</span>
+						<span>111 opinii w Google</span>
+					</a>
 				</p>
 
 				<div class="relative mt-6 overflow-hidden rounded-xl border border-slate-200/90 shadow-[0_8px_28px_-14px_rgba(15,23,42,0.12)]">

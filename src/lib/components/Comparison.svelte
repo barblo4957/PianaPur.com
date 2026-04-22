@@ -14,7 +14,7 @@
 			>
 				<div class="mb-6 w-full">
 					<img
-						src="/images/poddasze-1.jpeg"
+						src="/images/poddasze-1.webp"
 						alt="Piana otwartokomórkowa na poddaszu — widok po natrysku"
 						class="w-full rounded-xl object-cover"
 						style="aspect-ratio: 16/9;"
@@ -51,7 +51,7 @@
 			>
 				<div class="mb-6 w-full">
 					<img
-						src="/images/fundament-1.jpeg"
+						src="/images/fundament-1.webp"
 						alt="Piana zamkniętokomórkowa na fundamencie — izolacja zewnętrzna"
 						class="w-full rounded-xl object-cover"
 						style="aspect-ratio: 16/9;"

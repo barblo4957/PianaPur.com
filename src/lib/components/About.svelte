@@ -49,7 +49,7 @@
 			</div>
 			<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
 				<img
-					src="/images/bus.jpeg"
+					src="/images/bus.webp"
 					alt="Firmowy samochód FHU Marcin Kubik — ocieplenia pianą PUR i wykończenia wnętrz"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
 					style="aspect-ratio: 16/9;"
