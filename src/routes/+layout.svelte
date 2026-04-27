@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import { Analytics } from '@vercel/analytics/svelte';
 
 	let { children } = $props();
 </script>
@@ -16,4 +17,5 @@
 
 <div class="min-h-dvh bg-background font-sans text-primary antialiased">
 	{@render children()}
+	<Analytics />
 </div>
