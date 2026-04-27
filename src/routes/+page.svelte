@@ -57,7 +57,7 @@
 			</div>
 		</div>
 		<div class="flex flex-col gap-2 border-t border-background/15 pt-8 font-sans text-xs text-background/55 sm:flex-row sm:items-center sm:justify-between">
-			<p>© {new Date().getFullYear()} FHU Marcin Kubik. Wszelkie prawa zastrzeżone.</p>
+			<p>© {new Date().getFullYear()} FHU Marcin Kubik. Wszelkie prawa zastrzeżone. <a href="/polityka-prywatnosci" class="underline-offset-2 hover:text-accent hover:underline">Polityka prywatności</a></p>
 			<p>
 				Zaprojektowane przez
 				<a
