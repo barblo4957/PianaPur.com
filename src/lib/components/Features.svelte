@@ -98,5 +98,14 @@
 				{/each}
 			</ul>
 		</div>
+		<div class="mt-12 flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-center">
+			<p class="font-sans text-base text-primary/75">Masz pytania? Bezpłatna wycena — bez zobowiązań.</p>
+			<a
+				href="tel:667488358"
+				class="nav-cta-glow whitespace-nowrap rounded-full bg-accent px-6 py-3 font-sans text-sm font-semibold text-primary shadow-sm transition duration-200 ease-out hover:scale-[1.04] hover:brightness-110 hover:shadow-[0_0_22px_-4px_rgba(245,158,11,0.75)] active:scale-[0.98]"
+			>
+				📞 Zadzwoń — 667 488 358
+			</a>
+		</div>
 	</div>
 </section>

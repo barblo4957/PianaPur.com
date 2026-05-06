@@ -52,11 +52,11 @@
 
 		<div class="ml-auto flex shrink-0 items-center gap-2 sm:gap-3">
 			<a
-				href="#contact"
+				href="tel:667488358"
 				class="nav-cta-glow whitespace-nowrap rounded-full bg-accent px-3 py-2 font-sans text-[0.7rem] font-semibold leading-tight text-primary shadow-sm transition duration-200 ease-out hover:scale-[1.04] hover:brightness-110 hover:shadow-[0_0_22px_-4px_rgba(245,158,11,0.75)] active:scale-[0.98] sm:px-4 sm:text-sm"
 				onclick={closeMenu}
 			>
-				Darmowa wycena
+				📞 Zadzwoń
 			</a>
 
 			<button
@@ -114,9 +114,9 @@
 					{/each}
 					<li class="pt-2">
 						<a
-							href="#contact"
+							href="tel:667488358"
 							class="nav-cta-glow block rounded-full bg-accent px-4 py-3 text-center font-sans text-sm font-semibold text-primary shadow-sm transition duration-200 ease-out hover:scale-[1.02] hover:shadow-[0_0_22px_-4px_rgba(245,158,11,0.75)] active:scale-[0.98]"
-							onclick={closeMenu}>Darmowa wycena — kontakt</a>
+							onclick={closeMenu}>📞 Zadzwoń — 667 488 358</a>
 					</li>
 				</ul>
 			</nav>
