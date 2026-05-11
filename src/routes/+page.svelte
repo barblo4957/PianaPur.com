@@ -8,6 +8,7 @@
 	import Cellulose from '$lib/components/Cellulose.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import CallButton from '$lib/components/CallButton.svelte';
 </script>
 
 <Navbar />
@@ -20,6 +21,7 @@
 	<Cellulose />
 	<FAQ />
 	<Contact />
+	<CallButton />
 </main>
 <footer class="border-t border-primary/10 bg-primary text-background">
 	<div class="mx-auto max-w-6xl space-y-8 px-4 py-12 sm:px-6 lg:px-8">
