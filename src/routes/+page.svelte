@@ -25,8 +25,22 @@
 	<div class="mx-auto max-w-6xl space-y-8 px-4 py-12 sm:px-6 lg:px-8">
 		<div class="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
 			<div>
-				<p class="font-display text-xl font-bold tracking-tight sm:text-2xl">FHU Marcin Kubik</p>
-				<p class="mt-4 max-w-sm font-sans text-sm leading-relaxed text-background/70">
+				<div class="flex items-center gap-3">
+					<img
+						src="/images/logo.png"
+						alt="PianaPur — logo"
+						class="h-12 w-12 shrink-0 rounded-lg bg-background object-contain p-1 shadow-sm sm:h-14 sm:w-14"
+						width="56"
+						height="56"
+						loading="lazy"
+						decoding="async"
+					/>
+					<p class="font-display text-xl font-bold tracking-tight sm:text-2xl">
+						Piana<span class="text-accent">Pur</span>
+					</p>
+				</div>
+				<p class="mt-3 font-sans text-sm font-medium text-background/85">FHU Marcin Kubik</p>
+				<p class="mt-3 max-w-sm font-sans text-sm leading-relaxed text-background/70">
 					Piana PUR i ocieplanie celulozą. Wycena i dojazd do klienta na terenie województw:
 					<strong class="font-medium text-background/85">śląskiego</strong>,
 					<strong class="font-medium text-background/85">opolskiego</strong> i

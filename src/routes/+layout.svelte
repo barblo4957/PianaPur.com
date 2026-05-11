@@ -1,6 +1,5 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
 	import { inject } from '@vercel/analytics';
 
 	let { children } = $props();
@@ -8,7 +7,8 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" type="image/png" href="/images/logo.png" />
+	<link rel="apple-touch-icon" href="/images/logo.png" />
 	<title>Ocieplanie Pianką PUR i Celulozą - FHU Marcin Kubik - Śląsk, Opole, Małopolska</title>
 	<meta
 		name="description"
