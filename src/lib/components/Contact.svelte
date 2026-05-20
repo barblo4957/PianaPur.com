@@ -1,9 +1,15 @@
 <script lang="ts">
+	const MAKE_WEBHOOK_URL =
+		'https://hook.eu2.make.com/ua24ym0ji7bs6r1d25yxy5au79dckzej';
+
 	let name = $state('');
 	let email = $state('');
 	let phone = $state('');
 	let message = $state('');
 	let errors = $state<Record<string, string>>({});
+	let submitting = $state(false);
+	let success = $state(false);
+	let submitError = $state('');
 
 	const emailOk = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
 
@@ -18,19 +24,38 @@
 		return Object.keys(next).length === 0;
 	}
 
-	function handleSubmit(e: SubmitEvent) {
+	async function handleSubmit(e: SubmitEvent) {
 		e.preventDefault();
+		submitError = '';
+		success = false;
 		if (!validate()) return;
 
-		const text = `🏠 Nowe zapytanie ze strony pianapur.com
-
-👤 Imię i nazwisko: ${name}
-📧 E-mail: ${email}
-📞 Telefon: ${phone}
-📝 Wiadomość: ${message}`;
-
-		const url = `https://wa.me/48667488358?text=${encodeURIComponent(text)}`;
-		window.open(url, '_blank');
+		submitting = true;
+		try {
+			const res = await fetch(MAKE_WEBHOOK_URL, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					name: name.trim(),
+					email: email.trim(),
+					phone: phone.trim(),
+					message: message.trim()
+				})
+			});
+			if (!res.ok) {
+				submitError = 'Nie udało się wysłać wiadomości. Spróbuj ponownie później.';
+				return;
+			}
+			success = true;
+			name = '';
+			email = '';
+			phone = '';
+			message = '';
+		} catch {
+			submitError = 'Brak połączenia z siecią. Sprawdź internet i spróbuj ponownie.';
+		} finally {
+			submitting = false;
+		}
 	}
 </script>
 
@@ -92,6 +117,22 @@
 					onsubmit={handleSubmit}
 					novalidate
 				>
+					{#if success}
+						<div
+							class="rounded-xl border border-accent/25 bg-accent/10 px-4 py-3 text-sm text-primary"
+							role="status"
+						>
+							<p class="font-semibold text-primary">Dziękujemy za wiadomość</p>
+							<p class="mt-1 text-primary/75">
+								Zapytanie zostało wysłane. Odezwiemy się tak szybko, jak to możliwe.
+							</p>
+						</div>
+					{/if}
+					{#if submitError}
+						<p class="rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-sm text-red-700" role="alert">
+							{submitError}
+						</p>
+					{/if}
 					<div>
 						<label class="block text-sm font-medium text-primary" for="contact-name">
 							Imię i nazwisko <span class="text-accent" aria-hidden="true">*</span>
@@ -174,9 +215,10 @@
 					<p class="text-xs text-primary/55"><span class="text-accent">*</span> Pola wymagane</p>
 					<button
 						type="submit"
-						class="mt-1 rounded-full bg-accent py-3 text-sm font-semibold text-primary transition hover:brightness-110"
+						disabled={submitting}
+						class="mt-1 rounded-full bg-accent py-3 text-sm font-semibold text-primary transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-60"
 					>
-						Wyślij zapytanie przez WhatsApp
+						{submitting ? 'Wysyłanie…' : 'Wyślij zapytanie'}
 					</button>
 				</form>
 			</div>
