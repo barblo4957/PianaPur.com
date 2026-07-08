@@ -18,8 +18,10 @@
 					muted
 					loop
 					playsinline
+					width="640"
+					height="480"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
-					style="max-height: 480px;"
+					style="aspect-ratio: 4/3; max-height: 480px;"
 				></video>
 				<div>
 					<p class="font-display text-base font-bold text-primary">Natrysk piany PUR</p>
@@ -34,8 +36,10 @@
 					muted
 					loop
 					playsinline
+					width="640"
+					height="480"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
-					style="max-height: 480px;"
+					style="aspect-ratio: 4/3; max-height: 480px;"
 				></video>
 				<div>
 					<p class="font-display text-base font-bold text-primary">Wdmuchiwanie celulozy</p>

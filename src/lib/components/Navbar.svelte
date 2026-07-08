@@ -1,7 +1,6 @@
 <script lang="ts">
 	const links = [
 		{ href: '/o-firmie', label: 'O firmie' },
-		{ href: '/#features', label: 'Korzyści' },
 		{ href: '/uslugi', label: 'Usługi' },
 		{ href: '/kontakt', label: 'Kontakt' },
 		{ href: '/realizacje', label: 'Realizacje' }
