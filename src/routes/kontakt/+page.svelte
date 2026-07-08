@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Navbar from '$lib/components/Navbar.svelte';
+	import CallButton from '$lib/components/CallButton.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import FAQ from '$lib/components/FAQ.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -14,6 +15,7 @@
 </svelte:head>
 
 <Navbar />
+<CallButton />
 
 <main>
 	<section class="border-b border-primary/10 py-20 sm:py-28">

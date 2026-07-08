@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Navbar from '$lib/components/Navbar.svelte';
+	import CallButton from '$lib/components/CallButton.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	const photos = [
@@ -72,20 +73,40 @@
 />
 
 <Navbar />
+<CallButton />
 
 <main>
-	<section class="border-b border-primary/10 py-20 sm:py-24">
+	<section class="border-b border-primary/10 py-20 sm:py-28">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-			<p class="mb-4 font-sans text-sm font-semibold uppercase tracking-wider text-accent">
-				Realizacje
-			</p>
-			<h1 class="font-display text-3xl font-bold tracking-tight text-primary sm:text-4xl">
-				Każda realizacja — inna konstrukcja, ten sam efekt
-			</h1>
-			<p class="mt-4 max-w-2xl font-sans text-base leading-relaxed text-primary/75">
-				Piana PUR i celuloza w akcji — dwie technologie, jeden efekt. Działamy na terenie województw śląskiego,
-				opolskiego i małopolskiego.
-			</p>
+			<div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+				<div class="min-w-0">
+					<p class="mb-4 font-sans text-sm font-semibold uppercase tracking-wider text-accent">
+						Realizacje
+					</p>
+					<h1 class="font-display text-3xl font-bold tracking-tight text-primary sm:text-4xl">
+						Każda realizacja — inna konstrukcja, ten sam efekt
+					</h1>
+					<p class="mt-6 font-sans text-base leading-relaxed text-primary/80">
+						Piana PUR i celuloza w akcji — dwie technologie, jeden efekt. Działamy na terenie województw
+						śląskiego, opolskiego i małopolskiego.
+					</p>
+					<div class="mt-8 flex flex-wrap gap-6 font-sans text-sm text-primary/70">
+						<span>✓ Piana PUR</span>
+						<span>✓ Celuloza</span>
+						<span>✓ Zabudowa GK</span>
+						<span>✓ Fundamenty</span>
+					</div>
+				</div>
+				<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
+					<img
+						src="/images/natrysk.webp"
+						alt="Realizacja — natrysk piany PUR FHU Marcin Kubik"
+						class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
+						style="aspect-ratio: 4/3;"
+						loading="eager"
+					/>
+				</figure>
+			</div>
 		</div>
 	</section>
 

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Navbar from '$lib/components/Navbar.svelte';
+	import CallButton from '$lib/components/CallButton.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	const services = [
@@ -39,6 +40,7 @@
 </svelte:head>
 
 <Navbar />
+<CallButton />
 
 <main>
 	<section class="py-20 sm:py-24">
