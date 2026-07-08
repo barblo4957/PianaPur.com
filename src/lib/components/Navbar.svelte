@@ -1,10 +1,10 @@
 <script lang="ts">
 	const links = [
-		{ href: '#o-nas', label: 'O firmie' },
-		{ href: '#features', label: 'Korzyści' },
-		{ href: '#comparison', label: 'Rodzaje piany' },
-		{ href: '#celuloza', label: 'Celuloza' },
-		{ href: '#contact', label: 'Kontakt' }
+		{ href: '/o-firmie', label: 'O firmie' },
+		{ href: '/#features', label: 'Korzyści' },
+		{ href: '/uslugi', label: 'Usługi' },
+		{ href: '/kontakt', label: 'Kontakt' },
+		{ href: '/realizacje', label: 'Realizacje' }
 	] as const;
 
 	let menuOpen = $state(false);

@@ -9,6 +9,7 @@
 	import FAQ from '$lib/components/FAQ.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import CallButton from '$lib/components/CallButton.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <Navbar />
@@ -23,65 +24,4 @@
 	<Contact />
 	<CallButton />
 </main>
-<footer class="border-t border-primary/10 bg-primary text-background">
-	<div class="mx-auto max-w-6xl space-y-8 px-4 py-12 sm:px-6 lg:px-8">
-		<div class="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
-			<div>
-				<div class="flex items-center gap-3">
-					<img
-						src="/images/logo.png"
-						alt="PianaPur — logo"
-						class="h-12 w-12 shrink-0 rounded-lg bg-background object-contain p-1 shadow-sm sm:h-14 sm:w-14"
-						width="56"
-						height="56"
-						loading="lazy"
-						decoding="async"
-					/>
-					<p class="font-display text-xl font-bold tracking-tight sm:text-2xl">
-						Piana<span class="text-accent">Pur</span>
-					</p>
-				</div>
-				<p class="mt-3 font-sans text-sm font-medium text-background/85">FHU Marcin Kubik</p>
-				<p class="mt-3 max-w-sm font-sans text-sm leading-relaxed text-background/70">
-					Piana PUR i ocieplanie celulozą. Wycena i dojazd do klienta na terenie województw:
-					<strong class="font-medium text-background/85">śląskiego</strong>,
-					<strong class="font-medium text-background/85">opolskiego</strong> i
-					<strong class="font-medium text-background/85">małopolskiego</strong>.
-				</p>
-			</div>
-			<div class="font-sans text-sm text-background/65">
-				<p class="font-semibold text-background/90">Na stronie</p>
-				<ul class="mt-2 space-y-1">
-					<li>
-						<a class="text-accent underline-offset-2 hover:underline" href="#faq">Najczęstsze pytania</a>
-					</li>
-					<li>
-						<a class="text-accent underline-offset-2 hover:underline" href="#contact">Formularz kontaktowy</a>
-					</li>
-				</ul>
-			</div>
-			<div class="font-sans text-sm text-background/65">
-				<p class="font-semibold text-background/90">Znajdź nas</p>
-				<ul class="mt-2 space-y-1">
-					<li>
-						<a class="text-accent underline-offset-2 hover:underline" href="https://www.facebook.com/Izolacje.Natryskowe.Marcin.Kubik" target="_blank" rel="noopener noreferrer">Facebook</a>
-					</li>
-					<li>
-						<a class="text-accent underline-offset-2 hover:underline" href="https://www.tiktok.com/@pianapur.com" target="_blank" rel="noopener noreferrer">TikTok</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="flex flex-col gap-2 border-t border-background/15 pt-8 font-sans text-xs text-background/55 sm:flex-row sm:items-center sm:justify-between">
-			<p>© {new Date().getFullYear()} FHU Marcin Kubik. Wszelkie prawa zastrzeżone. <a href="/polityka-prywatnosci" class="underline-offset-2 hover:text-accent hover:underline">Polityka prywatności</a></p>
-			<p>
-				Zaprojektowane przez
-				<a
-					class="text-background/85 underline-offset-2 transition-colors hover:text-accent hover:underline"
-					href="https://siteconcept.pl"
-					target="_blank"
-					rel="noopener noreferrer">Siteconcept.pl</a>.
-			</p>
-		</div>
-	</div>
-</footer>
+<Footer />

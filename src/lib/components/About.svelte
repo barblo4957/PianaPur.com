@@ -1,31 +1,4 @@
-<script lang="ts">
-	const services = [
-		{
-			title: 'Sama izolacja',
-			body: 'Natrysk piany PUR lub wdmuchanie celulozy — dobieramy metodę do konstrukcji i etapu budowy.'
-		},
-		{
-			title: 'Przygotowanie i ocieplenie dachu',
-			body: 'Montaż uchwytów, obróbka okien dachowych i ocieplenie połaci — jedna ekipa, od początku do końca.'
-		},
-		{
-			title: 'Zabudowa płytami GK',
-			body: 'Płyty GK z ociepleniem do pierwszego malowania — zostawiamy gotowe poddasze, nie surowy natrysk.'
-		},
-		{
-			title: 'Gładzie i malowanie',
-			body: 'Gładzie gipsowe natryskowe oraz malowanie agregatem — przyspiesza prace i obniża koszt wykończenia.'
-		},
-		{
-			title: 'Własne zasilanie',
-			body: 'Pracujemy niezależnie od przyłącza na budowie — nie blokujemy harmonogramu prac na Twojej inwestycji.'
-		},
-		{
-			title: 'Izolacja starych stropów',
-			body: 'Mało miejsca na strychu? Wdmuchanie celulozy to najlepsze rozwiązanie dla starszych domów bez rozbiórki.'
-		}
-	] as const;
-</script>
+<script lang="ts"></script>
 
 <section id="o-nas" class="scroll-mt-24 border-b border-primary/10 py-20 sm:py-24">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -46,6 +19,28 @@
 					Pracujemy na profesjonalnym sprzęcie hydraulicznym z własnym zasilaniem.
 					Nie jesteśmy uzależnieni od przyłącza na budowie — przyjeżdżamy i działamy.
 				</p>
+				<div class="mt-10 flex justify-start">
+					<a
+						href="/o-firmie"
+						class="inline-flex items-center gap-2 rounded-full border border-primary/20 px-6 py-3 font-sans text-sm font-semibold text-primary transition duration-200 ease-out hover:border-accent hover:text-accent"
+					>
+						Poznajmy się bliżej
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							aria-hidden="true"
+						>
+							<path d="M5 12h14M12 5l7 7-7 7" />
+						</svg>
+					</a>
+				</div>
 			</div>
 			<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
 				<img
@@ -57,20 +52,5 @@
 				/>
 			</figure>
 		</div>
-		<ul class="mt-14 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-			{#each services as { title, body }, i}
-				<li
-					class="flex gap-4 rounded-2xl border border-primary/10 bg-primary/[0.02] p-5 shadow-sm transition duration-200 ease-out hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-[0_14px_32px_-14px_rgba(15,23,42,0.22)]"
-				>
-					<span
-						class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent/20 font-display text-sm font-bold text-primary"
-						aria-hidden="true">{i + 1}</span>
-					<div class="min-w-0">
-						<h3 class="font-display text-base font-bold leading-snug text-primary">{title}</h3>
-						<p class="mt-2 font-sans text-sm leading-relaxed text-primary/70">{body}</p>
-					</div>
-				</li>
-			{/each}
-		</ul>
 	</div>
 </section>
