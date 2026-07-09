@@ -21,7 +21,7 @@
 <CallButton />
 
 <main>
-	<section class="border-b border-primary/10 py-20 sm:py-28">
+	<section class="border-b border-primary/10 py-12 sm:py-28">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
 				<div class="min-w-0">
@@ -68,8 +68,8 @@
 		</div>
 	</section>
 
-	<Contact />
 	<FAQ />
+	<Contact />
 </main>
 
 <Footer />

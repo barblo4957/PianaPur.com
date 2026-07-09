@@ -34,10 +34,10 @@
 	}
 </script>
 
-<section id="contact" class="scroll-mt-24 py-20 sm:py-24">
+<section id="contact" class="scroll-mt-24 py-10 sm:py-24">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="grid gap-12 lg:grid-cols-2 lg:gap-16">
-			<div class="min-w-0">
+			<div class="min-w-0 lg:col-start-1 lg:row-start-1">
 				<h2 class="font-display text-3xl font-bold tracking-tight text-primary sm:text-4xl">Kontakt</h2>
 				<p class="mt-4 font-sans text-primary/75">
 					Opisz inwestycję (powierzchnia, lokalizacja, etap budowy) — przygotujemy zestawienie i terminy.
@@ -71,22 +71,9 @@
 						<span>111 opinii w Google</span>
 					</a>
 				</p>
-
-				<div class="relative mt-6 overflow-hidden rounded-xl border border-slate-200/90 shadow-[0_8px_28px_-14px_rgba(15,23,42,0.12)]">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5123.484713680979!2d18.400168119883453!3d50.05365753560116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471145306329b9f5%3A0x9ad6110fc2a4ecc9!2sFHU%20Marcin%20Kubik%20Ocieplenia%20dach%C3%B3w%20pian%C4%85%2C%20Metod%C4%85%20wdmuchiwania%2C%20Wyko%C5%84czenia%20Wn%C4%99trz!5e0!3m2!1spl!2spl!4v1776798854962!5m2!1spl!2spl"
-						width="100%"
-						height="300"
-						style="border:0; display:block;"
-						allowfullscreen
-						loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"
-						title="Lokalizacja FHU Marcin Kubik"
-					></iframe>
-				</div>
 			</div>
 
-			<div class="min-w-0">
+			<div class="min-w-0 lg:col-start-2 lg:row-start-1 lg:row-span-2">
 				<form
 					class="flex flex-col gap-4 rounded-2xl border border-primary/10 bg-primary/[0.02] p-6 font-sans sm:p-8"
 					onsubmit={handleSubmit}
@@ -187,6 +174,21 @@
 						Wyślij zapytanie przez WhatsApp
 					</button>
 				</form>
+			</div>
+
+			<div class="min-w-0 lg:col-start-1 lg:row-start-2">
+				<div class="relative overflow-hidden rounded-xl border border-slate-200/90 shadow-[0_8px_28px_-14px_rgba(15,23,42,0.12)]">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5123.484713680979!2d18.400168119883453!3d50.05365753560116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471145306329b9f5%3A0x9ad6110fc2a4ecc9!2sFHU%20Marcin%20Kubik%20Ocieplenia%20dach%C3%B3w%20pian%C4%85%2C%20Metod%C4%85%20wdmuchiwania%2C%20Wyko%C5%84czenia%20Wn%C4%99trz!5e0!3m2!1spl!2spl!4v1776798854962!5m2!1spl!2spl"
+						width="100%"
+						height="300"
+						style="border:0; display:block;"
+						allowfullscreen
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+						title="Lokalizacja FHU Marcin Kubik"
+					></iframe>
+				</div>
 			</div>
 		</div>
 	</div>

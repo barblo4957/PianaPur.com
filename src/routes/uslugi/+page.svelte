@@ -101,7 +101,7 @@
 <CallButton />
 
 <main>
-	<section class="border-b border-primary/10 py-20 sm:py-28">
+	<section class="border-b border-primary/10 py-12 sm:py-28">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
 				<div class="min-w-0">
@@ -143,7 +143,7 @@
 		</div>
 	</section>
 
-	<section class="py-20 sm:py-24">
+	<section class="py-10 sm:py-24">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<h2 class="font-display text-2xl font-bold tracking-tight text-primary sm:text-3xl">
 				Co oferujemy
@@ -175,7 +175,7 @@
 		</div>
 	</section>
 
-	<section class="border-t border-primary/10 bg-slate-50 py-20 sm:py-24">
+	<section class="border-t border-primary/10 bg-slate-50 py-10 sm:py-24">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<h2 class="font-display text-2xl font-bold tracking-tight text-primary sm:text-3xl">
 				Piana otwarto- vs zamkniętokomórkowa
@@ -221,7 +221,7 @@
 		</div>
 	</section>
 
-	<section class="border-t border-primary/10 bg-accent/5 py-16 sm:py-20">
+	<section class="border-t border-primary/10 bg-accent/5 py-10 sm:py-20">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<div class="flex flex-col items-center gap-6 text-center sm:flex-row sm:justify-between sm:text-left">
 				<div>
