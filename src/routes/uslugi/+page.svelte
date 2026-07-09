@@ -92,6 +92,9 @@
 		name="description"
 		content="Natrysk piany PUR, ocieplanie celulozą, izolacja fundamentów i zabudowa GK. Kompleksowa obsługa od wyceny po gotowe poddasze. Śląsk, Opolskie, Małopolska."
 	/>
+	<meta property="og:url" content="https://www.pianapur.com/uslugi" />
+	<meta property="og:title" content="Usługi — piana PUR, celuloza, zabudowa GK | PianaPur" />
+	<meta property="og:image" content="https://www.pianapur.com/images/natrysk.webp" />
 </svelte:head>
 
 <Navbar />

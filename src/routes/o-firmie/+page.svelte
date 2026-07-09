@@ -37,6 +37,9 @@
 		name="description"
 		content="Poznaj FHU Marcin Kubik — specjalistów od izolacji pianą PUR i celulozą od 2010 roku. Własny sprzęt, profesjonalna ekipa, 3 województwa."
 	/>
+	<meta property="og:url" content="https://www.pianapur.com/o-firmie" />
+	<meta property="og:title" content="O firmie — FHU Marcin Kubik | PianaPur" />
+	<meta property="og:image" content="https://www.pianapur.com/images/natrysk.webp" />
 </svelte:head>
 
 <Navbar />

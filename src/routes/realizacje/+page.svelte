@@ -59,6 +59,9 @@
 		name="description"
 		content="Zobacz nasze realizacje — natrysk piany PUR, ocieplanie celulozą, izolacja fundamentów i zabudowa GK. Śląsk, Opolskie, Małopolska."
 	/>
+	<meta property="og:url" content="https://www.pianapur.com/realizacje" />
+	<meta property="og:title" content="Realizacje — galeria zdjęć | PianaPur FHU Marcin Kubik" />
+	<meta property="og:image" content="https://www.pianapur.com/images/natrysk.webp" />
 </svelte:head>
 
 <svelte:window

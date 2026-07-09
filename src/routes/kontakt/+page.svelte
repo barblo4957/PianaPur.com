@@ -12,6 +12,9 @@
 		name="description"
 		content="Skontaktuj się z FHU Marcin Kubik. Bezpłatna wycena i dojazd do klienta. Działamy w województwach śląskim, opolskim i małopolskim."
 	/>
+	<meta property="og:url" content="https://www.pianapur.com/kontakt" />
+	<meta property="og:title" content="Kontakt — bezpłatna wycena | PianaPur FHU Marcin Kubik" />
+	<meta property="og:image" content="https://www.pianapur.com/images/natrysk.webp" />
 </svelte:head>
 
 <Navbar />
