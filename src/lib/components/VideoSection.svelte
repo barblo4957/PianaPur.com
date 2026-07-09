@@ -18,6 +18,7 @@
 					muted
 					loop
 					playsinline
+					preload="none"
 					width="640"
 					height="480"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
@@ -36,6 +37,7 @@
 					muted
 					loop
 					playsinline
+					preload="none"
 					width="640"
 					height="480"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
