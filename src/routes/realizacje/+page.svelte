@@ -4,19 +4,16 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	const photos = [
-		{ src: '/images/natrysk.webp', alt: 'Natrysk piany PUR na poddaszu', category: 'Piana PUR — poddasze' },
-		{ src: '/images/natrysk.webp', alt: 'Izolacja stropu pianą PUR', category: 'Piana PUR — strop' },
-		{
-			src: '/images/natrysk.webp',
-			alt: 'Piana zamkniętokomórkowa na ścianie',
-			category: 'Piana zamkniętokomórkowa'
-		},
-		{ src: '/images/natrysk.webp', alt: 'Wdmuchiwanie celulozy na stropie', category: 'Celuloza' },
-		{ src: '/images/natrysk.webp', alt: 'Izolacja fundamentów pianą', category: 'Fundamenty' },
-		{ src: '/images/natrysk.webp', alt: 'Zabudowa płytami GK na poddaszu', category: 'Zabudowa GK' },
-		{ src: '/images/natrysk.webp', alt: 'Natrysk piany PUR — widok ogólny', category: 'Piana PUR — poddasze' },
-		{ src: '/images/natrysk.webp', alt: 'Ocieplenie połaci dachowej', category: 'Piana PUR — poddasze' },
-		{ src: '/images/natrysk.webp', alt: 'Celuloza wdmuchana na stropie', category: 'Celuloza' }
+		{ src: '/images/realizacja - piana poddasze.webp', alt: 'Piana PUR na poddaszu', category: 'Piana PUR — poddasze' },
+		{ src: '/images/realizacja - piana poddasze 2.webp', alt: 'Piana PUR na poddaszu — widok ogólny', category: 'Piana PUR — poddasze' },
+		{ src: '/images/realizacja - piana poddasze 3.webp', alt: 'Piana PUR na poddaszu — szczegół', category: 'Piana PUR — poddasze' },
+		{ src: '/images/realizacja - piana zamknietokomorkowa.webp', alt: 'Piana zamkniętokomórkowa', category: 'Piana zamkniętokomórkowa' },
+		{ src: '/images/realizacja - ocieplenie scian.webp', alt: 'Ocieplenie ścian pianą', category: 'Piana zamkniętokomórkowa' },
+		{ src: '/images/realizacja - celuloza.webp', alt: 'Ocieplanie celulozą', category: 'Celuloza' },
+		{ src: '/images/realizacja - fundament.webp', alt: 'Izolacja fundamentów', category: 'Fundamenty' },
+		{ src: '/images/realizacja - fundament 2.webp', alt: 'Izolacja fundamentów — widok boczny', category: 'Fundamenty' },
+		{ src: '/images/realizacja - zabudowa gk.webp', alt: 'Zabudowa płytami GK', category: 'Zabudowa GK' },
+		{ src: '/images/realizacja - zabudowa gk 2.webp', alt: 'Zabudowa GK — gotowe poddasze', category: 'Zabudowa GK' },
 	] as const;
 
 	let lightboxOpen = $state(false);
@@ -99,8 +96,8 @@
 				</div>
 				<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
 					<img
-						src="/images/natrysk.webp"
-						alt="Realizacja — natrysk piany PUR FHU Marcin Kubik"
+						src="/images/realizacje-hero.webp"
+						alt="Realizacja izolacji pianą PUR — FHU Marcin Kubik"
 						class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
 						style="aspect-ratio: 4/3;"
 						loading="eager"

@@ -14,7 +14,7 @@
 				'Gotowe poddasze — bez surowego natrysku',
 				'Własny sprzęt hydrauliczny z zasilaniem'
 			],
-			image: '/images/natrysk.webp',
+			image: '/images/piana pur - poddasze.webp',
 			alt: 'Natrysk piany PUR na poddaszu'
 		},
 		{
@@ -27,7 +27,7 @@
 				'Dodatkowa izolacja akustyczna',
 				'Szybka realizacja bez rozbiórki'
 			],
-			image: '/images/natrysk.webp',
+			image: '/images/piana pur - strop.webp',
 			alt: 'Izolacja stropu pianą PUR'
 		},
 		{
@@ -40,7 +40,7 @@
 				'Wzmacnia konstrukcję budynku',
 				'Stosowana na fundamenty i ściany zewnętrzne'
 			],
-			image: '/images/natrysk.webp',
+			image: '/images/zamknietokomorkowa.webp',
 			alt: 'Piana zamkniętokomórkowa na ścianie'
 		},
 		{
@@ -53,7 +53,7 @@
 				'Idealna dla starych stropów z małą przestrzenią',
 				'Dostępna w całym obszarze działania'
 			],
-			image: '/images/natrysk.webp',
+			image: '/images/celuloza-uslugi.webp',
 			alt: 'Wdmuchiwanie celulozy na stropie'
 		},
 		{
@@ -66,7 +66,7 @@
 				'Trwałość na dziesięciolecia',
 				'Szybka aplikacja bez naruszania konstrukcji'
 			],
-			image: '/images/natrysk.webp',
+			image: '/images/fundamenty.webp',
 			alt: 'Izolacja fundamentów pianą'
 		},
 		{
@@ -79,7 +79,7 @@
 				'Gładzie gipsowe natryskowe',
 				'Malowanie agregatem — jedna ekipa od początku do końca'
 			],
-			image: '/images/natrysk.webp',
+			image: '/images/zabudowa płytami gk.webp',
 			alt: 'Zabudowa płytami GK na poddaszu'
 		}
 	] as const;
@@ -129,8 +129,8 @@
 				</div>
 				<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
 					<img
-						src="/images/natrysk.webp"
-						alt="Natrysk piany PUR — FHU Marcin Kubik"
+						src="/images/hero-uslugi.webp"
+						alt="Profesjonalny pomiar wilgotności po natrysku piany PUR"
 						class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
 						style="aspect-ratio: 4/3;"
 						loading="eager"

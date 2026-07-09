@@ -30,11 +30,10 @@
 			<div>
 				<p class="font-sans text-xs font-semibold uppercase tracking-wider text-background/50">Nawigacja</p>
 				<ul class="mt-3 space-y-2 font-sans text-sm">
+					<li><a href="/" class="text-background/75 transition hover:text-accent">Strona główna</a></li>
 					<li><a href="/o-firmie" class="text-background/75 transition hover:text-accent">O firmie</a></li>
 					<li><a href="/uslugi" class="text-background/75 transition hover:text-accent">Usługi</a></li>
-					<li>
-						<a href="/realizacje" class="text-background/75 transition hover:text-accent">Realizacje</a>
-					</li>
+					<li><a href="/realizacje" class="text-background/75 transition hover:text-accent">Realizacje</a></li>
 					<li><a href="/kontakt" class="text-background/75 transition hover:text-accent">Kontakt</a></li>
 				</ul>
 			</div>

@@ -1,9 +1,10 @@
 <script lang="ts">
 	const links = [
+		{ href: '/', label: 'Strona główna' },
 		{ href: '/o-firmie', label: 'O firmie' },
 		{ href: '/uslugi', label: 'Usługi' },
-		{ href: '/kontakt', label: 'Kontakt' },
-		{ href: '/realizacje', label: 'Realizacje' }
+		{ href: '/realizacje', label: 'Realizacje' },
+		{ href: '/kontakt', label: 'Kontakt' }
 	] as const;
 
 	let menuOpen = $state(false);

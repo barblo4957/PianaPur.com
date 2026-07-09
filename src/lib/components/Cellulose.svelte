@@ -30,7 +30,7 @@
 			</div>
 			<div class="w-full">
 				<img
-					src="/images/celuloza.webp"
+					src="/images/celuloza-hero.webp"
 					alt="Ocieplanie celulozą — wdmuchana celuloza na stropie poddasza"
 					class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.12)]"
 					style="aspect-ratio: 16/9;"
