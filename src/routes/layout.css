@@ -28,3 +28,85 @@ html {
 	--font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 	--font-display: 'Oswald', ui-sans-serif, system-ui, sans-serif;
 }
+
+/* CookieYes banner — colors are set by inline styles from the CookieYes dashboard, hence !important */
+.cky-consent-container .cky-consent-bar,
+.cky-modal .cky-preference-center {
+	background-color: var(--color-background) !important;
+	border-color: rgb(15 23 42 / 0.1) !important;
+	border-radius: 1rem;
+	box-shadow: 0 20px 40px -12px rgb(15 23 42 / 0.25) !important;
+	font-family: var(--font-sans) !important;
+	color: var(--color-primary) !important;
+}
+
+.cky-consent-container .cky-title,
+.cky-modal .cky-preference-title {
+	font-family: var(--font-display) !important;
+	font-weight: 600 !important;
+	letter-spacing: 0.01em;
+	color: var(--color-primary) !important;
+}
+
+.cky-consent-container .cky-notice-des,
+.cky-consent-container .cky-notice-des *,
+.cky-modal .cky-preference-content-wrapper,
+.cky-modal .cky-preference-content-wrapper *,
+.cky-modal .cky-accordion-header-des,
+.cky-modal .cky-accordion-header-des * {
+	color: rgb(15 23 42 / 0.8) !important;
+}
+
+.cky-consent-container .cky-notice-des a,
+.cky-consent-container .cky-policy,
+.cky-modal .cky-show-desc-btn {
+	color: var(--color-primary) !important;
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color: var(--color-accent);
+	text-underline-offset: 3px;
+}
+
+.cky-consent-container .cky-btn,
+.cky-modal .cky-btn {
+	border-radius: 9999px !important;
+	border: 2px solid var(--color-primary) !important;
+	background-color: var(--color-background) !important;
+	color: var(--color-primary) !important;
+	font-family: var(--font-sans) !important;
+	font-weight: 600 !important;
+	transition:
+		filter 0.15s ease,
+		background-color 0.15s ease;
+}
+
+.cky-consent-container .cky-btn:hover,
+.cky-modal .cky-btn:hover {
+	background-color: rgb(15 23 42 / 0.05) !important;
+	opacity: 1 !important;
+}
+
+.cky-consent-container .cky-btn-accept,
+.cky-modal .cky-btn-accept {
+	background-color: var(--color-accent) !important;
+	border-color: var(--color-accent) !important;
+	color: var(--color-primary) !important;
+}
+
+.cky-consent-container .cky-btn-accept:hover,
+.cky-modal .cky-btn-accept:hover {
+	background-color: var(--color-accent) !important;
+	filter: brightness(1.1);
+}
+
+.cky-modal .cky-switch input[type='checkbox']:checked {
+	background: var(--color-accent) !important;
+}
+
+.cky-modal .cky-always-active {
+	color: var(--color-accent) !important;
+}
+
+.cky-btn-revisit-wrapper {
+	background-color: var(--color-accent) !important;
+}
