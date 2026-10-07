@@ -3,6 +3,7 @@
 		{ href: '/', label: 'Strona główna' },
 		{ href: '/o-firmie', label: 'O firmie' },
 		{ href: '/uslugi', label: 'Usługi' },
+		{ href: '/welna-wdmuchiwana', label: 'Wełna wdmuchiwana' },
 		{ href: '/realizacje', label: 'Realizacje' },
 		{ href: '/kontakt', label: 'Kontakt' }
 	] as const;

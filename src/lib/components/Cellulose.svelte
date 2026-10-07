@@ -60,6 +60,12 @@
 					wielu klasycznych układach suchej zabudowy. Na spotkaniu doradzamy, co ma sens w Twoim dachu lub
 					stropie.
 				</p>
+				<a
+					href="/welna-wdmuchiwana"
+					class="mt-3 inline-block font-sans text-sm font-semibold text-primary underline decoration-accent underline-offset-4 transition hover:text-accent"
+				>
+					Więcej o wełnie wdmuchiwanej →
+				</a>
 			</li>
 		</ul>
 		<div class="mt-12 flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-center">

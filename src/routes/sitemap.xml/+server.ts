@@ -5,6 +5,7 @@ export const GET: RequestHandler = async () => {
 		{ url: '/', priority: '1.0', changefreq: 'weekly' },
 		{ url: '/o-firmie', priority: '0.8', changefreq: 'monthly' },
 		{ url: '/uslugi', priority: '0.9', changefreq: 'monthly' },
+		{ url: '/welna-wdmuchiwana', priority: '0.9', changefreq: 'monthly' },
 		{ url: '/realizacje', priority: '0.8', changefreq: 'weekly' },
 		{ url: '/kontakt', priority: '0.7', changefreq: 'monthly' },
 	];

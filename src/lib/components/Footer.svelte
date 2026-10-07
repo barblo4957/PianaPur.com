@@ -33,6 +33,9 @@
 					<li><a href="/" class="text-background/75 transition hover:text-accent">Strona główna</a></li>
 					<li><a href="/o-firmie" class="text-background/75 transition hover:text-accent">O firmie</a></li>
 					<li><a href="/uslugi" class="text-background/75 transition hover:text-accent">Usługi</a></li>
+					<li>
+						<a href="/welna-wdmuchiwana" class="text-background/75 transition hover:text-accent">Wełna wdmuchiwana</a>
+					</li>
 					<li><a href="/realizacje" class="text-background/75 transition hover:text-accent">Realizacje</a></li>
 					<li><a href="/kontakt" class="text-background/75 transition hover:text-accent">Kontakt</a></li>
 				</ul>

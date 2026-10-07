@@ -149,7 +149,7 @@
 				Co oferujemy
 			</h2>
 			<div class="mt-12 grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
-				{#each services as { title, short, details, image, alt }, i}
+				{#each services as { slug, title, short, details, image, alt }, i}
 					<article
 						class="flex flex-col overflow-hidden rounded-2xl border border-primary/10 bg-primary/[0.02] shadow-sm transition duration-200 ease-out hover:-translate-y-1 hover:border-accent/30 hover:shadow-[0_14px_32px_-14px_rgba(15,23,42,0.22)]"
 					>
@@ -168,6 +168,14 @@
 									</li>
 								{/each}
 							</ul>
+							{#if slug === 'celuloza'}
+								<a
+									href="/welna-wdmuchiwana"
+									class="mt-4 self-start font-sans text-sm font-semibold text-primary underline decoration-accent underline-offset-4 transition hover:text-accent"
+								>
+									Więcej o wełnie wdmuchiwanej →
+								</a>
+							{/if}
 						</div>
 					</article>
 				{/each}
