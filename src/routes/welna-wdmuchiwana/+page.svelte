@@ -35,7 +35,7 @@
 			features: [
 				'niepalna — klasa reakcji na ogień A1',
 				'hydrofobizowana — odporna na nasiąkanie',
-				'nie osiada w trakcie użytkowania (klasa S1 przy wdmuchiwaniu)',
+				'przy prawidłowej gęstości nie osiada w trakcie użytkowania',
 				'bardzo dobra izolacja cieplna i akustyczna',
 				'lekka — nie obciąża starych stropów',
 				'pozwala ocieplić poddasze bez demontażu istniejącej zabudowy'
