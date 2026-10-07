@@ -11,7 +11,7 @@
 	const ogTitle = 'Wełna wdmuchiwana — celuloza i wełna mineralna';
 	const ogDescription =
 		'Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Celuloza, Knauf Supafil, URSA PUREFLOC.';
-	const ogImage = 'https://www.pianapur.com/images/celuloza.webp';
+	const ogImage = 'https://www.pianapur.com/images/celuloza-1600.webp';
 
 	const materials = [
 		{
@@ -151,8 +151,8 @@
 	<meta property="og:title" content={ogTitle} />
 	<meta property="og:description" content={ogDescription} />
 	<meta property="og:image" content={ogImage} />
-	<meta property="og:image:width" content="900" />
-	<meta property="og:image:height" content="675" />
+	<meta property="og:image:width" content="1600" />
+	<meta property="og:image:height" content="1200" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={ogTitle} />
 	<meta name="twitter:description" content={ogDescription} />
@@ -164,44 +164,46 @@
 <CallButton />
 
 <main>
-	<section class="border-b border-primary/10 py-12 sm:py-28">
-		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-			<div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-				<div class="min-w-0">
-					<h1 class="font-display text-3xl font-bold tracking-tight text-primary sm:text-4xl lg:text-5xl">
-						Wełna wdmuchiwana — celuloza i wełna mineralna
-					</h1>
-					<p class="mt-6 font-sans text-base leading-relaxed text-primary/80">
-						Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Materiał trafia agregatem w każdą
-						szczelinę, narożnik i wnękę — bez docinania, bez łączeń, bez mostków termicznych. Pracujemy na
-						celulozie oraz na wełnie mineralnej Knauf Supafil i URSA PUREFLOC.
-					</p>
-					<div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-						<a
-							href="tel:+48667488358"
-							class="nav-cta-glow inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-sans text-sm font-semibold text-primary shadow-sm transition duration-200 ease-out hover:scale-[1.04] hover:brightness-110 active:scale-[0.98]"
-						>
-							📞 Zadzwoń
-						</a>
-						<a
-							href="/kontakt"
-							class="inline-flex items-center justify-center gap-2 rounded-full border border-primary/20 px-6 py-3 font-sans text-sm font-semibold text-primary transition duration-200 ease-out hover:border-accent hover:text-accent"
-						>
-							Bezpłatna wycena
-						</a>
-					</div>
+	<section class="relative isolate flex min-h-[70svh] items-center overflow-hidden lg:min-h-[78svh]">
+		<img
+			src="/images/celuloza-1600.webp"
+			srcset="/images/celuloza.webp 900w, /images/celuloza-1600.webp 1600w"
+			sizes="100vw"
+			alt="Wdmuchana izolacja między belkami stropu poddasza"
+			class="absolute inset-0 -z-20 h-full w-full object-cover"
+			width="1600"
+			height="1200"
+			loading="eager"
+			fetchpriority="high"
+		/>
+		<div
+			class="absolute inset-0 -z-10 bg-primary/75 lg:bg-transparent lg:bg-gradient-to-r lg:from-primary/90 lg:via-primary/70 lg:to-primary/20"
+			aria-hidden="true"
+		></div>
+		<div class="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+			<div class="max-w-2xl">
+				<h1 class="font-display text-3xl font-bold tracking-tight text-background sm:text-4xl lg:text-5xl">
+					Wełna wdmuchiwana — celuloza i wełna mineralna
+				</h1>
+				<p class="mt-6 font-sans text-base leading-relaxed text-background/85 sm:text-lg">
+					Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Materiał trafia agregatem w każdą
+					szczelinę, narożnik i wnękę — bez docinania, bez łączeń, bez mostków termicznych. Pracujemy na
+					celulozie oraz na wełnie mineralnej Knauf Supafil i URSA PUREFLOC.
+				</p>
+				<div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
+					<a
+						href="tel:+48667488358"
+						class="nav-cta-glow inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-sans text-sm font-semibold text-primary shadow-sm transition duration-200 ease-out hover:scale-[1.04] hover:brightness-110 active:scale-[0.98]"
+					>
+						📞 Zadzwoń
+					</a>
+					<a
+						href="/kontakt"
+						class="inline-flex items-center justify-center gap-2 rounded-full border border-background/60 px-6 py-3 font-sans text-sm font-semibold text-background transition duration-200 ease-out hover:border-accent hover:text-accent"
+					>
+						Bezpłatna wycena
+					</a>
 				</div>
-				<figure class="relative mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none">
-					<img
-						src="/images/celuloza.webp"
-						alt="Wdmuchana izolacja między belkami stropu poddasza"
-						class="w-full rounded-2xl object-cover shadow-[0_8px_28px_-14px_rgba(15,23,42,0.22)]"
-						style="aspect-ratio: 4/3;"
-						width="900"
-						height="675"
-						loading="eager"
-					/>
-				</figure>
 			</div>
 		</div>
 	</section>
