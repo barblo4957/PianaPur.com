@@ -173,7 +173,7 @@
 				</h1>
 				<p class="mt-6 font-sans text-base leading-relaxed text-background/85 sm:text-lg">
 					Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Materiał trafia agregatem w każdą
-					zakamarek, narożnik i wnękę — bez docinania, bez łączeń, bez mostków termicznych. Pracujemy na
+					szczelinę, narożnik i wnękę — bez docinania, bez łączeń, bez mostków termicznych. Pracujemy na
 					celulozie oraz na wełnie mineralnej.
 				</p>
 				<div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
