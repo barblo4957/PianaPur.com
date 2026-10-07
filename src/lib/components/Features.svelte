@@ -2,7 +2,7 @@
 	const items = [
 		{
 			title: 'Precyzja i szczelność',
-			body: 'Natrysk dociera w trudno dostępne miejsca — wypełnia szczeliny i tworzy ciągłą warstwę przylegającą do podłoża.'
+			body: 'Natrysk dociera w trudno dostępne miejsca — wypełnia każdą lukę i tworzy ciągłą warstwę przylegającą do podłoża.'
 		},
 		{
 			title: 'Trwałość na lata',

@@ -2,15 +2,15 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import CallButton from '$lib/components/CallButton.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { BrickWall, Check, House, Layers, PanelsTopLeft, Triangle, Warehouse } from 'lucide-svelte';
+	import { Check, House, Layers, PanelsTopLeft, Triangle, Warehouse } from 'lucide-svelte';
 
 	const pageUrl = 'https://www.pianapur.com/welna-wdmuchiwana';
 	const title = 'Wełna wdmuchiwana — celuloza i wełna mineralna | PianaPur';
 	const description =
-		'Ocieplenie poddasza, stropów i ścian wełną wdmuchiwaną: celuloza oraz wełna mineralna Knauf Supafil i URSA PUREFLOC. Szybki montaż, bez demontażu zabudowy. Bezpłatna wycena.';
+		'Ocieplenie poddasza, stropów i ścian wełną wdmuchiwaną: celuloza oraz wełna mineralna. Szybki montaż, bez demontażu zabudowy. Bezpłatna wycena.';
 	const ogTitle = 'Wełna wdmuchiwana — celuloza i wełna mineralna';
 	const ogDescription =
-		'Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Celuloza, Knauf Supafil, URSA PUREFLOC.';
+		'Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Celuloza i wełna mineralna.';
 	const ogImage = 'https://www.pianapur.com/images/celuloza-1600.webp';
 
 	const materials = [
@@ -28,33 +28,20 @@
 			usage: 'stropy poddaszy nieużytkowych, skosy dachowe, stropy drewniane, ściany szkieletowe.'
 		},
 		{
-			name: 'Knauf Supafil',
+			name: 'Wełna mineralna',
 			badge: 'wełna mineralna szklana',
 			description:
-				'Biała wełna mineralna produkowana ze stłuczki szklanej, bez dodatku spoiwa, zabezpieczona przed wodą. Materiał do profesjonalnego wdmuchiwania agregatem.',
+				'Biała wełna mineralna ze stłuczki szklanej, bez dodatku spoiwa, zabezpieczona przed wodą. Do nadmuchu na otwartych stropach i do wdmuchiwania agregatem w zamknięte przestrzenie.',
 			features: [
 				'niepalna — klasa reakcji na ogień A1',
 				'hydrofobizowana — odporna na nasiąkanie',
 				'nie osiada w trakcie użytkowania (klasa S1 przy wdmuchiwaniu)',
+				'bardzo dobra izolacja cieplna i akustyczna',
 				'lekka — nie obciąża starych stropów',
 				'pozwala ocieplić poddasze bez demontażu istniejącej zabudowy'
 			],
 			usage:
-				'stropy poddaszy nieużytkowych, skosy, stropy drewniane belkowe, podłogi na legarach, ściany szkieletowe, ściany dwuwarstwowe ze szczeliną powietrzną.'
-		},
-		{
-			name: 'URSA PUREFLOC',
-			badge: 'wełna mineralna szklana',
-			description:
-				'Wełna mineralna ze szkła z recyklingu, bez spoiwa, do nadmuchu na otwartych stropach i do wdmuchiwania w zamknięte przestrzenie.',
-			features: [
-				'niepalna — klasa reakcji na ogień A1',
-				'bardzo dobra izolacja cieplna i akustyczna',
-				'przy wdmuchiwaniu w zamknięte przestrzenie nie osiada',
-				'wersja hydrofobizowana do ścian szczelinowych'
-			],
-			usage:
-				'stropy poddaszy (nadmuch otwarty), ściany i dachy w konstrukcji szkieletowej, stropy belkowe, ściany szczelinowe.'
+				'stropy poddaszy nieużytkowych (także nadmuch otwarty), skosy, stropy drewniane belkowe, podłogi na legarach, ściany i dachy w konstrukcji szkieletowej.'
 		}
 	] as const;
 
@@ -73,7 +60,7 @@
 		{
 			label: 'Kiedy polecamy',
 			cellulose: 'domy drewniane, poddasza użytkowe, inwestorzy stawiający na ekologię',
-			mineral: 'stare i lekkie stropy, budynki z wymaganiami ppoż., ściany szczelinowe'
+			mineral: 'stare i lekkie stropy, budynki z wymaganiami ppoż.'
 		}
 	] as const;
 
@@ -82,8 +69,7 @@
 		{ label: 'Skosy dachowe i poddasze użytkowe', icon: Triangle },
 		{ label: 'Stropy drewniane belkowe', icon: Layers },
 		{ label: 'Podłogi na legarach', icon: PanelsTopLeft },
-		{ label: 'Ściany i dachy w konstrukcji szkieletowej', icon: House },
-		{ label: 'Ściany dwuwarstwowe ze szczeliną powietrzną', icon: BrickWall }
+		{ label: 'Ściany i dachy w konstrukcji szkieletowej', icon: House }
 	];
 
 	const steps = [
@@ -187,8 +173,8 @@
 				</h1>
 				<p class="mt-6 font-sans text-base leading-relaxed text-background/85 sm:text-lg">
 					Ocieplamy poddasza, stropy i ściany metodą wdmuchiwania. Materiał trafia agregatem w każdą
-					szczelinę, narożnik i wnękę — bez docinania, bez łączeń, bez mostków termicznych. Pracujemy na
-					celulozie oraz na wełnie mineralnej Knauf Supafil i URSA PUREFLOC.
+					zakamarek, narożnik i wnękę — bez docinania, bez łączeń, bez mostków termicznych. Pracujemy na
+					celulozie oraz na wełnie mineralnej.
 				</p>
 				<div class="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
 					<a
@@ -241,7 +227,7 @@
 			>
 				Materiały, na których pracujemy
 			</h2>
-			<div class="mt-12 grid gap-8 lg:grid-cols-3">
+			<div class="mt-12 grid gap-8 md:grid-cols-2">
 				{#each materials as { name, badge, description, features, usage }}
 					<article
 						class="flex flex-col rounded-2xl border border-primary/10 bg-background p-6 shadow-sm transition duration-200 ease-out hover:-translate-y-1 hover:border-accent/30 hover:shadow-[0_14px_32px_-14px_rgba(15,23,42,0.22)]"
@@ -286,7 +272,7 @@
 						<tr class="border-b border-primary/10 bg-primary text-background">
 							<th scope="col" class="px-2.5 py-3 font-semibold sm:px-6"><span class="sr-only">Cecha</span></th>
 							<th scope="col" class="px-2.5 py-3 font-semibold sm:px-6">Celuloza</th>
-							<th scope="col" class="px-2.5 py-3 font-semibold sm:px-6">Wełna mineralna (Supafil, PUREFLOC)</th>
+							<th scope="col" class="px-2.5 py-3 font-semibold sm:px-6">Wełna mineralna</th>
 						</tr>
 					</thead>
 					<tbody class="text-primary/85">
@@ -314,9 +300,11 @@
 			>
 				Gdzie stosujemy wełnę wdmuchiwaną
 			</h2>
-			<ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			<ul class="mt-10 flex flex-wrap justify-center gap-4">
 				{#each applications as { label, icon: Icon }}
-					<li class="flex items-center gap-4 rounded-2xl border border-primary/10 bg-background p-5 shadow-sm">
+					<li
+						class="flex w-full items-center gap-4 rounded-2xl border border-primary/10 bg-background p-5 shadow-sm sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-2rem)/3)]"
+					>
 						<span
 							class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-accent/15 text-primary"
 							aria-hidden="true"
